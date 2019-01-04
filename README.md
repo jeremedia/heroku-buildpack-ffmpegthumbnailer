@@ -15,7 +15,7 @@ To use this buildpack, you should prepare .buildpacks file that contains this bu
     $ cat .buildpacks
     https://github.com/heroku/heroku-buildpack-python.git
     https://github.com/akomic/heroku-buildpack-ffmpeg.git
-    https://github.com/akomic/heroku-buildpack-ffmpegthumbnailer.git
+    https://github.com/BiggerPockets/heroku-buildpack-ffmpegthumbnailer.git
 
     $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi.git
 
