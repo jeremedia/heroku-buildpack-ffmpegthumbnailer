@@ -19,5 +19,5 @@ curl -L --silent $DOWNLOAD_URL | tar zx
 echo "exporting PATH and LIBRARY_PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/ffmpeg.sh"
 mkdir -p $(dirname $PROFILE_PATH)
-echo 'export PATH="$PATH:$HOME/vendor/ffmpegthumbnailer-2.0.8/bin"' >> $PROFILE_PATH
-echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/vendor/ffmpegthumbnailer-2.0.8/lib"' >> $PROFILE_PATH
+echo 'export PATH="$PATH:$HOME/vendor/ffmpegthumbnailer-ffmpegthumbnailer-2.0.8/bin"' >> $PROFILE_PATH
+echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/vendor/ffmpegthumbnailer-ffmpegthumbnailer-2.0.8/lib"' >> $PROFILE_PATH
